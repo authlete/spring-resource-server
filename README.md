@@ -1,5 +1,5 @@
-Resource Server Implementation on Spring Framework
-==================================================
+Resource Server on Spring Framework
+===================================
 
 Overview
 --------
