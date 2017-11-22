@@ -1,5 +1,5 @@
 FROM maven:3.5.2-jdk-8
-EXPOSE 8080
+EXPOSE 8081
 
 RUN mkdir -p /authlete/app
 
