@@ -93,9 +93,19 @@ How To Run
 
         $ vi authlete.properties
 
-3. Start the resource server on [http://localhost:8081/][15].
+3. Make sure that you have installed [maven][32] and set `JAVA_HOME` properly.
+
+4. Start the resource server on [http://localhost:8081/][15].
 
         $ mvn spring-boot
+
+#### Run With Docker
+
+If you would prefer to use Docker, just hit the following command after the step 2.
+
+    $ docker-compose up
+
+#### Configuration File
 
 `spring-resource-server` refers to `authlete.properties` as a configuration file.
 If you want to use another different file, specify the name of the file by
@@ -264,3 +274,4 @@ Contact
 [29]: https://spring.io/
 [30]: http://projects.spring.io/spring-security-oauth/
 [31]: https://medium.com/@darutk/new-architecture-of-oauth-2-0-and-openid-connect-implementation-18f408f9338d
+[32]: https://maven.apache.org/
