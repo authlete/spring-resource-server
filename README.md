@@ -114,6 +114,7 @@ the system property `authlete.configuration.file` like the following.
     $ mvn spring-boot:run \
       -Drun.jvmArguments="-Dauthlete.configuration.file=local.authlete.properties"
 
+
 Endpoints
 ---------
 
