@@ -18,14 +18,14 @@ package com.authlete.spring.server.api;
 
 
 import com.authlete.common.types.User;
-import com.authlete.jaxrs.spi.UserInfoRequestHandlerSpiAdapter;
+import com.authlete.jakarta.spi.UserInfoRequestHandlerSpiAdapter;
 import com.authlete.spring.server.db.UserDao;
 
 
 /**
- * Implementation of {@link com.authlete.jaxrs.spi.UserInfoRequestHandlerSpi
+ * Implementation of {@link com.authlete.jakarta.spi.UserInfoRequestHandlerSpiAdapter
  * UserInfoRequestHandlerSpi} interface which needs to be given to the
- * constructor of {@link com.authlete.jaxrs.UserInfoRequestHandler
+ * constructor of {@link com.authlete.jakarta.spi.UserInfoRequestHandlerSpiAdapter
  * UserInfoRequestHandler}.
  */
 public class UserInfoRequestHandlerSpiImpl extends UserInfoRequestHandlerSpiAdapter

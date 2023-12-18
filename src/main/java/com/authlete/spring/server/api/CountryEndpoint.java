@@ -19,7 +19,7 @@ package com.authlete.spring.server.api;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
-import javax.ws.rs.WebApplicationException;
+import jakarta.ws.rs.WebApplicationException;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;

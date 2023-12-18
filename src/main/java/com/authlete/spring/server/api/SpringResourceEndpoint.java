@@ -17,12 +17,12 @@
 package com.authlete.spring.server.api;
 
 
-import javax.ws.rs.WebApplicationException;
+import com.authlete.jakarta.AccessTokenInfo;
+import com.authlete.jakarta.BaseResourceEndpoint;
+import jakarta.ws.rs.WebApplicationException;
 import org.springframework.http.ResponseEntity;
 import com.authlete.common.api.AuthleteApi;
 import com.authlete.common.api.AuthleteApiFactory;
-import com.authlete.jaxrs.AccessTokenInfo;
-import com.authlete.jaxrs.BaseResourceEndpoint;
 
 
 public class SpringResourceEndpoint extends BaseResourceEndpoint
