@@ -1,6 +1,8 @@
-app:
-  build: .
-  ports:
-    - 8081:8081
-  volumes:
-    - .:/authlete/app
+version: "3"
+services:
+  app:
+    build: .
+    ports:
+      - "8081:8081"
+    volumes:
+      - .:/authlete/app

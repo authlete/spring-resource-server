@@ -17,7 +17,8 @@
 package com.authlete.spring.server.api;
 
 
-import javax.ws.rs.core.Response;
+import com.authlete.jakarta.BaseUserInfoEndpoint;
+import jakarta.ws.rs.core.Response;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
@@ -27,7 +28,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import com.authlete.common.api.AuthleteApiFactory;
-import com.authlete.jaxrs.BaseUserInfoEndpoint;
 
 
 /**
